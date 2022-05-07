@@ -875,14 +875,7 @@ ol {
 .modal__form-input:hover, .modal__form-input:focus {
   border-color: var(--accent-color);
 }
-
-.modal__form-textarea:hover,
-.modal__form-textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.modal__form-input:hover + .modal__form-icon,
-.modal__form-input:focus + .modal__form-icon {
+.modal__form-input:hover + .modal__form-icon, .modal__form-input:focus + .modal__form-icon {
   fill: var(--accent-color);
 }
 
