@@ -3,13 +3,15 @@
     display: flex;
 }
 
-.works__button-items>li {
+.works__button-item {
     margin-right: 8px;
+
+      &:last-child {
+            margin-right: 0;
+        }
 }
 
-.works__button-items>li:last-child {
-    margin-right: 0;
-}
+
 
 .works__button-primery {
     font-family: "Roboto";

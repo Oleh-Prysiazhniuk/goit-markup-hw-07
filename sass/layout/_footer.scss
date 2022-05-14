@@ -21,11 +21,11 @@
     color: var(--accent-color);
 }
 
-.footer__address-list {
+.address {
     margin-top: 20px;
 }
 
-.footer__address-link {
+.address__link {
     font-family: Roboto;
     font-style: normal;
     font-size: 14px;
@@ -40,11 +40,11 @@
         }
 }
 
-.footer__contact-item {
+.address__item {
     margin-top: 9px;
 }
 
-.footer__contact-link {
+.address__link-another {
     font-family: Roboto;
     font-style: normal;
     font-size: 14px;
@@ -65,7 +65,7 @@
 
 
 
-.footer__call-title {
+.join-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -73,18 +73,18 @@
     color: var(--text-title-color);
 }
 
-.footer__call {
+.join-margin {
     margin-left: 70px;
 }
 
-.footer__call-item {
+.call__item {
     cursor: pointer;
          & + & {
             margin-left: 10px;
         }
 }
 
-.footer__call-list {
+.call {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -92,7 +92,7 @@
 
 
 
-.footer__call-link {
+.call__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +109,7 @@
         }
 }
 
-.footer__call-icon {
+.call__icon {
     fill: var(--primary-bg-color);
 }
 
